@@ -21,9 +21,6 @@ jobs:
       - name: Build the App
         run: ./scripts/buildprod.sh
   
-  buildprod:
-    name: Build Production
-    
     steps:
     - id: 'auth'
       uses: 'google-github-actions/auth@v2'
